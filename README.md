@@ -27,4 +27,5 @@ console.log(person.firstname) // Ole
 console.log(person.lastname) // Erling
 ```
 
-Det er måske ikke den bedst tænkelige syntaks, da vi i javascript allerede bruger krølleparenteserne i for eksempel funktioner og faktisk også et par andre steder efterhånden som man lærer sproget at kende. 
+### Men  krølleparenteser bruges da til...
+Ja, krølleparenteser bruges til forskellige ting, afhængig af hvor du er i din kode. Derfor er det er måske ikke den bedst tænkelige syntaks. Du lærer dog ret hurtigt at skelne imellem funtktioner, objekter osv.
