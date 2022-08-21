@@ -28,4 +28,4 @@ console.log(person.lastname) // Erling
 ```
 
 ### Men  krølleparenteser bruges da til...
-Ja, krølleparenteser bruges til forskellige ting, afhængig af hvor du er i din kode. Derfor er det er måske ikke den bedst tænkelige syntaks. Du lærer dog ret hurtigt at skelne imellem funtktioner, objekter osv.
+Ja, krølleparenteser bruges til forskellige ting, afhængig af hvor du er i din kode. Derfor er det er måske ikke den bedst tænkelige syntaks. Du lærer dog ret hurtigt at skelne imellem de måder krølleparenteserne bruges, og dermed til at spotte, om der er tale om en funktion, et objekt eller noget helt tredje.
