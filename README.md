@@ -31,4 +31,6 @@ console.log(person.lastname) // Erling
 Ja, krølleparenteser bruges til forskellige ting, afhængig af hvor du er i din kode. Derfor er det er måske ikke den bedst tænkelige syntaks. Du lærer dog ret hurtigt at skelne imellem de måder krølleparenteserne bruges, og dermed til at spotte, om der er tale om en funktion, et objekt eller noget helt tredje.
 
 ## Opgave 1 
-Opret et objekt 
+Opret et objekt som indeholder mindst fire forskellige egenskaber. Udskriv de fire egenskaber i konsollen en ad gangen. 
+
+
