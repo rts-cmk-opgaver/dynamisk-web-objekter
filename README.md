@@ -78,6 +78,6 @@ console.log(person.pet.name) // Holger
 ```
 
 ## Opgave 2 
-- Udvid dit objekt fra opgave 1, så det indeholder både booleans, arrays og objekter. 
+- Lav en kopi af dit objekt fra opgave 1, og udvid det, så det indeholder både booleans, arrays og objekter. 
 - Lav en løkke som udskriver værdierne af dit array i konsollen.
 - udskriv værdierne fra det _nestede_ objekt i konsollen.
