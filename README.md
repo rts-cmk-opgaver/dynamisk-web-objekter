@@ -53,7 +53,7 @@ let person = {
   married: true,
   age: 54, 
   hometown: "Roskilde", 
-  hobbies: ["reptiles", "stamps", "programming"],
+  hobbies: ["Reptiler", "Frimærker", "Programmering"],
   pet: {
     type: "Klapperslange", 
     name: "Holger"
@@ -69,6 +69,9 @@ Hvis du vil udskrive værdierne i fx. hobbies arrayet, kan du gøre det med fx. 
 person.hobbies.forEach(function(hobby) {
   console.log(hobby)
 }
+// Reptiler
+// Fimærker
+// Programmering
 ```
 - og hvis du vil referere til pet-objektet, skal du `'dotte'` videre, til du når til den egenskab du gerne vil udskrive: 
 
@@ -80,4 +83,4 @@ console.log(person.pet.name) // Holger
 ## Opgave 2 
 - Lav en kopi af dit objekt fra opgave 1, og udvid det, så det indeholder både booleans, arrays og objekter. 
 - Lav en løkke som udskriver værdierne af dit array i konsollen.
-- udskriv værdierne fra det _nestede_ objekt i konsollen.
+- udskriv værdierne fra det *nestede* objekt i konsollen.
