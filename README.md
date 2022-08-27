@@ -20,7 +20,7 @@ let person = {
 ```
 Ovenfor defineres en variabel "person" som indeholder et objekt. 
 
-Et objekt defineres ved at omkranse de data som objektet indeholder med krølleparenteser. Inde i objektet defineres en række data. Data består af to halvdele, lidt lige som css. En egenskab og en værdi. Når man refererer til data i objektet gøres det ved at referere til objekt navnet og herefter den egenskab (property) man gerne vil have udskrevet. Værdien for den pågældnde egenskab returneres. Denne måde refereres ofte  til som "dot notation". 
+Et objekt defineres ved at omkranse de data som objektet indeholder med krølleparenteser. Inde i objektet defineres en række data. Data består af to halvdele, lidt lige som css. En egenskab og en værdi. Hvert sæt af egenskaber og værdier adskilles af et komma. Når man refererer til data i objektet gøres det ved at referere til objekt navnet efterfulgt af et punktum, og herefter den egenskab (property) man gerne vil have udskrevet. Værdien for den pågældnde egenskab returneres. Denne måde kaldes for "dot notation". 
 
 ```js
 console.log(person.firstname) // Ole
@@ -40,6 +40,44 @@ console.log(person["petname"]) // Holger
 
 
 ## Opgave 1 
-Opret et objekt som indeholder mindst fire forskellige egenskaber. Udskriv de fire egenskaber i konsollen en ad gangen. Brug begge syntakser til at udskrive egenskaberne med, så du får prøvet både "dot notation" og 
+Opret et objekt som indeholder mindst fire forskellige egenskaber. Udskriv de fire egenskaber i konsollen en ad gangen. Brug begge syntakser til at udskrive egenskaberne med, så du får prøvet både "dot notation" og "bracket notation".
 
+## Datatyper i objekter
+I eksemplet ovenfor bruges der både strings og en enkelt number værdi (age/alder) i objektet. 
+Objekter kan indeholde alle typer af værdier, sågar andre objekter. Hvis vi forestiller os objektet ovenfor, med nogle flere data-typer, kunne det fx. se sådan ud: 
 
+```js
+let person = {
+  firstname: "Ole",
+  lastname: "Erling",
+  married: true,
+  age: 54, 
+  hometown: "Roskilde", 
+  hobbies: ["reptiles", "stamps", "programming"],
+  pet: {
+    type: "Klapperslange", 
+    name: "Holger"
+  },
+}
+```
+
+Ovenfor er person-objektet nu udvidet med både en boolean værdi (married), et array (hobbies) og et objekt (pet).
+Når vi taler om objekter indeholdt i andre objekter, kaldes de for *nestede* objekter.
+Hvis du vil udskrive værdierne i fx. hobbies arrayet, kan du gøre det med fx. array-metoden `forEach`.
+
+```js
+person.hobbies.forEach(function(hobby) {
+  console.log(hobby)
+}
+```
+- og hvis du vil referere til pet-objektet, skal du `'dotte'` videre, til du når til den egenskab du gerne vil udskrive: 
+
+```js
+console.log(person.pet.type) // Klapperslange
+console.log(person.pet.name) // Holger
+```
+
+## Opgave 2 
+- Udvid dit objekt fra opgave 1, så det indeholder både booleans, arrays og objekter. 
+- Lav en løkke som udskriver værdierne af dit array i konsollen.
+- udskriv værdierne fra det _nestede_ objekt i konsollen.
