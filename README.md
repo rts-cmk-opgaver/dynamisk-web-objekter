@@ -84,3 +84,7 @@ console.log(person.pet.name) // Holger
 - Lav en kopi af dit objekt fra opgave 1, og udvid det, så det indeholder både booleans, arrays og objekter. 
 - Lav en løkke som udskriver værdierne af dit array i konsollen.
 - udskriv værdierne fra det *nestede* objekt i konsollen.
+
+## Opgave 3
+- Formålet med opgaven er at træne dynamisk generering af html på baggrund af data. Brugeren skal nu kunne se de forskellige data i browseren, og ikke kun i konsollen som i de tidligere opgaver.
+- Brug de forskellige data i data.js til at generere forskellige UI(HTML) elementer i index.html.
