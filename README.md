@@ -4,7 +4,7 @@ Følg anvisningerne opgaven fra Mit RTS for at løse opgaverne.
 
 Husk at lave en branch, inden du går i gang med opgave løsningen.
 
-Alle opgaver løses i arrays.js filen. 
+Du skal selv oprette de nødvendige filer til at løse opgaven. 
 Adskil gerne de enkelte opgaver med en kommentar, fx: 
 ```js
 // --- opgave 1 ---
